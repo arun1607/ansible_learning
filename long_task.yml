@@ -2,4 +2,4 @@
   hosts: all
   tasks:
     - name: Long running task
-      command: "sleep 3600"
+      command: "sleep 3800"
