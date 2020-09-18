@@ -1,0 +1,5 @@
+- name: Print current workign directory
+  hosts: all
+  tasks:
+    - name: Current directory
+      command: "pwd"
